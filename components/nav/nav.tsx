@@ -4,7 +4,7 @@ const Nav = () =>{
 const [showMenu, setShowMenu] = useState<boolean>(false)
 
 const showMenuNav = () =>{
-    console.log("Test");
+    console.log("Tejst");
     
     setShowMenu(!showMenu)
 }
