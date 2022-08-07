@@ -22,7 +22,7 @@ return(
         </div>
         
 
-        <ul className={`${showMenu ? "w-screen opacity-100" : "w-0 opacity-0"} lg:h-auto lg:hidden lg:pt-0  lg:opacity-100 lg:flex lg:items-center lg:border-none lg:static text-sm duration-700   h-screen border-l fixed right-0 top-20 uppercase pl-4 pt-16`}>
+        <ul className={`${showMenu ? "w-screen opacity-100" : "w-0 opacity-0"} lg:h-auto lg:hidden lg:pt-0  lg:opacity-100 lg:flex lg:items-center lg:border-none lg:static text-sm duration-700   h-screen border-l fixed right-0 top-20 uppercase pl-4 pt-12 bg-white`}>
             <li className="lg:mt-0 mt-4 cursor-pointer">Agenda</li>
             <li className="lg:mt-0 mt-8 cursor-pointer">Thema</li>
             <li className="lg:mt-0 mt-8 cursor-pointer">Redner:innen</li>
@@ -35,10 +35,10 @@ return(
             <p className="md:mr-0 mr-14 text-sm font-semibold uppercase">Ticket kaufen</p>
             </div>
             
-            <div className="md:hidden" onClick={showMenuNav}>
+            <div className="md:hidden  right-0" onClick={showMenuNav}>
             
-                <div className="bg-black h-0.5 w-6"></div>
-                <div className="bg-black h-0.5 w-6 mt-1.5"></div>
+                <div className={`${showMenu ? "duration-300 absolute rotate-45 bg-black h-0.5 w-6" : " absolute duration-300 bg-black h-0.5 w-6 "}`}></div>
+                <div className={`${showMenu ? "duration-300   -rotate-45 bg-black h-0.5 w-6 " : "mt-2 duration-300 bg-black h-0.5 w-6 "}`}></div>
             
             </div>
 

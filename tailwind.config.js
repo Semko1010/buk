@@ -9,7 +9,8 @@ module.exports = {
       fontSize: {
 				"1xl": "64px",
 				"2xl": "52px",
-				"3xl": "40px",
+				"3xl": "45px",
+				
 				"4xl": "32px",
 				xxl: "28px",
 				xl: "24px",
@@ -18,6 +19,9 @@ module.exports = {
 				sm: "14px",
 				xs: "12px",
 			},
+			colors:{
+				buttonPrimary:"#3389ED"
+			}
 
     },
   },
