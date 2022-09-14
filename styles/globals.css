@@ -6,10 +6,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   
 }
-
+@font-face {
+  font-family: "inter";
+  src: url("/Users/admin/Desktop/PortfolioProjects/Shetani Projects/buk24/buk-18/public/fonts/Inter-VariableFont_slnt,wght.ttf");
+}
 a {
   color: inherit;
   text-decoration: none;
