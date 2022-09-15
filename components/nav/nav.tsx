@@ -9,13 +9,13 @@ const Nav = () => {
 
 	return (
 		<>
-			<nav className='md:px-8 relative font-inter px-4 flex items-center justify-between pt-12 pb-[27.5px] w-full border-b border-grey'>
+			<nav className='md:px-8 md:pt-[69px] md:px-10 relative font-inter px-4 flex items-center justify-between pt-12 pb-[27.5px] w-full border-b border-grey'>
 				<div className='md:flex md:items-center'>
 					<h1 className='text-fontColorPrimary font-semibold'>Buk 18</h1>
-					<ul className=' md:flex md:items-center ml-8 hidden'>
-						<li className='cursor-pointer'>Agenda</li>
-						<li className='cursor-pointer ml-8'>Thema</li>
-						<li className='cursor-pointer ml-8'>Redner:innen</li>
+					<ul className=' md:flex md:items-center md:ml-10 ml-8 hidden'>
+						<li className='cursor-pointer '>Agenda</li>
+						<li className='cursor-pointer md:ml-10 ml-8'>Thema</li>
+						<li className='cursor-pointer md:ml-10 ml-8'>Redner:innen</li>
 					</ul>
 				</div>
 
@@ -35,7 +35,7 @@ const Nav = () => {
 				</ul>
 				<div className='flex items-center'>
 					<div className='md:flex md:items-center'>
-						<p className='md:inline-block text-sm d uppercase mr-8 hidden'>
+						<p className='md:inline-block text-sm d uppercase md:mr-10 mr-8 hidden'>
 							Kontakt
 						</p>
 						<p className='md:mr-0 mr-14 text-fontColorPrimary text-sm font-semibold uppercase'>
