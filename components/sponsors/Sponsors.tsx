@@ -38,6 +38,50 @@ const Sponsors = () => {
 					<img className='mt-10' src='./img/wsw.svg' alt='' />
 				</div>
 			</div>
+			<div className='mt-[100px]'>
+				<h2 className='border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary  mx-[15px]'>
+					Weitere Sponsoren
+				</h2>
+				<div className='border-b pb-[151px] grid grid-cols-3  gap-[20px] mx-[15px]'>
+					<img className='mt-10' src='./img/davoine.svg' alt='' />
+					<img className='mt-10' src='./img/babtec.svg' alt='' />
+					<img className='mt-10 ' src='./img/barmenia.svg' alt='' />
+					<img className='mt-10' src='./img/büromatic.svg' alt='' />
+					<img className='mt-10' src='./img/buth.svg' alt='' />
+					<img className='mt-10 ' src='./img/cardinal.svg' alt='' />
+					<img className='mt-10' src='./img/ede.svg' alt='' />
+					<img className='mt-10' src='./img/fahnen.svg' alt='' />
+					<img className='mt-10' src='./img/fom.svg' alt='' />
+					<img className='mt-10' src='./img/hectas.svg' alt='' />
+					<img className='mt-10' src='./img/gg.svg' alt='' />
+					<img className='mt-10' src='./img/knauf.svg' alt='' />
+					<img className='mt-10' src='./img/lare.svg' alt='' />
+					<img className='mt-10' src='./img/leon.svg' alt='' />
+					<img className='mt-10' src='./img/mpf.svg' alt='' />
+					<img className='mt-10' src='./img/pinetco.svg' alt='' />
+					<img className='mt-10' src='./img/schönian.svg' alt='' />
+					<img className='mt-10' src='./img/pohli.svg' alt='' />
+					<img className='mt-10' src='./img/Schade.svg' alt='' />
+					<img className='mt-10' src='./img/slw.svg' alt='' />
+					<img className='mt-10 ' src='./img/bayern.svg' alt='' />
+					<img className='mt-10' src='./img/creme.svg' alt='' />
+					<img className='mt-10' src='./img/deka.svg' alt='' />
+					<img className='mt-10' src='./img/Rheingold.svg' alt='' />
+					<img className='mt-10' src='./img/fries.svg' alt='' />
+					<img className='mt-10' src='./img/wein.svg' alt='' />
+					<img className='mt-10' src='./img/runkel.svg' alt='' />
+					<img className='mt-10' src='./img/knipex.svg' alt='' />
+					<img className='mt-10' src='./img/koch.svg' alt='' />
+					<img className='mt-10' src='./img/beuthel.svg' alt='' />
+					<img className='mt-10' src='./img/netzkern.svg' alt='' />
+					<img className='mt-10' src='./img/villa.svg' alt='' />
+				</div>
+				<div className='pb-[92px] mt-10 ml-[15px]'>
+					<img className='mt-10' src='./img/wz.svg' alt='' />
+					<img className='mt-10' src='./img/njuzz.svg' alt='' />
+					<img className='mt-10' src='./img/radio.svg' alt='' />
+				</div>
+			</div>
 		</section>
 	);
 };

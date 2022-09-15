@@ -1,6 +1,10 @@
 const AgendaSection = () => {
 	return (
-		<section className=' font-inter '>
+		<section
+			style={{
+				backgroundImage: `url("./img/backAgenda.svg")`,
+			}}
+			className=' font-inter '>
 			<div className=''>
 				<h2 className='ml-[15px] mt-20 pb-[49px] leading-[39px] uppercase text-headingColor text-[37px]'>
 					So sieht unsere Agenda aus

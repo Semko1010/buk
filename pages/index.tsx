@@ -5,6 +5,7 @@ import AgendaSection from "../components/angendaSection/AgendaSection";
 import TicketKaufen from "../components/ticketKaufen/TicketKaufen";
 import LastSection from "../components/LastSection/LastSection";
 import Sponsors from "../components/sponsors/Sponsors";
+import Footer from "../components/footer/Footer";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
 			<TicketKaufen />
 			<LastSection />
 			<Sponsors />
+			<Footer />
 		</div>
 	);
 };

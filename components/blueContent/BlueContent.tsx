@@ -3,7 +3,7 @@ const BlueContent = () => {
 		<main
 			className='pt-20 mt-[50px]'
 			style={{
-				backgroundImage: `url("./img/back.png")`,
+				backgroundImage: `url("./img/back.svg")`,
 			}}>
 			<div className='w-11/12 mx-auto'>
 				<h2 className='font-bold text-white'>Der Kongress</h2>
@@ -68,7 +68,7 @@ const BlueContent = () => {
 				</p>
 			</div>
 
-			<section className='pb-20 ml-[15px] mt-[70px]'>
+			<section className='pb-[70px] ml-[15px] mt-[70px]'>
 				<div className='flex flex-col'>
 					<h2 className='leading-[121px] text-[100px] text-white'>17</h2>
 					<p className='uppercase font-semi-bold text-white'>Kongresse</p>

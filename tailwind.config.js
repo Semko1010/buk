@@ -27,7 +27,7 @@ module.exports = {
 				headingColor: "#131313",
 				fontColorPrimary: "#222222",
 				buttonPrimary: "#3389ED",
-				agendaPrimary: "rgba(196, 196, 196, 0.1)",
+				agendaPrimary: "rgba(196, 196, 196, 0.07)",
 				buttonTextColor: "#3B8AE8",
 			},
 		},
