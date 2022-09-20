@@ -9,7 +9,7 @@ const Nav = () => {
 
 	return (
 		<>
-			<nav className='md:px-8 md:pt-[69px] md:px-10 relative font-inter px-4 flex items-center justify-between pt-12 pb-[27.5px] w-full border-b border-grey'>
+			<nav className='md:px-8 md:pt-[69px] md:px-10 bg-white relative font-inter px-4 flex items-center justify-between pt-12 pb-[27.5px] w-full border-b border-grey'>
 				<div className='md:flex md:items-center'>
 					<h1 className='text-fontColorPrimary font-semibold'>Buk 18</h1>
 					<ul className=' md:flex md:items-center md:ml-10 ml-8 hidden'>

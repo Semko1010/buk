@@ -21,11 +21,15 @@ module.exports = {
 				md: "16px",
 				sm: "14px",
 				xs: "12px",
+				res1: "10vw",
+				res2: "9vw",
+				res: "7vw",
 			},
 
 			colors: {
 				headingColor: "#131313",
 				fontColorPrimary: "#222222",
+				fontColorSecondary: "#E1E1E1",
 				buttonPrimary: "#3389ED",
 				agendaPrimary: "rgba(196, 196, 196, 0.07)",
 				buttonTextColor: "#3B8AE8",
