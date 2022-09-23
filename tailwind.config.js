@@ -3,9 +3,14 @@ module.exports = {
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}",
+		"public/*.{html,js}",
+		"./public/**/*.{html,js}",
 	],
 	theme: {
 		extend: {
+			backgroundImage: {
+				backAgenda: "url('/img/backAgenda.svg')",
+			},
 			fontFamily: {
 				inter: ["inter", "sans-serif"],
 			},
@@ -22,7 +27,7 @@ module.exports = {
 				sm: "14px",
 				xs: "12px",
 				res1: "10vw",
-				res2: "9vw",
+				res2: "8vw",
 				res: "7vw",
 			},
 

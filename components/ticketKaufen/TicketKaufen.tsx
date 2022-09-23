@@ -1,20 +1,25 @@
 const TicketKaufen = () => {
 	return (
 		<section
-			className='pb-[60px] font-inter mt-[90px] pt-[80px]'
+			className='md:pb-[0px] md:pt-[116px] pb-[60px] font-inter mt-[90px] pt-[80px]'
 			style={{
 				backgroundImage: `url("./img/ticketBuy.svg")`,
 			}}>
-			<div className='mx-[15px]'>
-				<h2 className='leading-[39px] text-white text-[37px]'>
-					Quo Vadis? Eine Geselschaft im Umbruch
+			<div className='md:mx-[40px] mx-[15px]'>
+				<h2 className='md:font-light md:leading-none md:text-res leading-[39px] text-white text-[37px]'>
+					Quo Vadis? <br /> Eine Geselschaft <br /> im Umbruch
 				</h2>
-				<button className='my-[30px] leading-[16px] uppercase font-bold text-sm rounded-[100px] py-[22px] px-[27px] text-buttonTextColor bg-white'>
+				<button className='md:mb-[56px] md:mt-[17px] my-[30px] leading-[16px] uppercase font-bold text-sm rounded-[100px] py-[22px] px-[27px] text-buttonTextColor bg-white'>
 					Ticket Kaufen
 				</button>
-				<div>
-					<img className='' src='./img/heroSvg.svg' alt='' />
-					<p className='mt-[30px] text-white font-medium'>
+				<div className='md:flex'>
+					<img className='md:hidden' src='./img/heroSvg.svg' alt='' />
+					<img
+						className='md:inline md:mr-[57px] hidden'
+						src='./img/buyHero.svg'
+						alt=''
+					/>
+					<p className='mt-[30px] leading-[23px] text-white font-medium'>
 						In keiner Phase der Geschichte hat es einen vergleichbaren
 						Innovationsschub gegeben wie in unserer Zeit. So werden wir mit dem
 						Aufkommen von künstlicher Intelligenz konfrontiert. Innovationen

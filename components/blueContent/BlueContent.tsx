@@ -82,13 +82,13 @@ const BlueContent = () => {
 					<p className='uppercase font-semi-bold text-white'>Kongresse</p>
 				</div>
 				<div className='md:mr-[60px] md:items-baseline md:flex-row flex flex-col mt-5'>
-					<h2 className='lg:text-[90px] leading-[121px] md:text-res2 text-[100px] text-white'>
+					<h2 className='lg:text-[90px] md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
 						2500
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Teilnehmer</p>
 				</div>
 				<div className='md:items-baseline md:flex-row flex flex-col mt-5'>
-					<h2 className='lg:text-[90px] leading-[121px] md:text-res2 text-[100px] text-white'>
+					<h2 className='lg:text-[90px] md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
 						48
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Referenten</p>

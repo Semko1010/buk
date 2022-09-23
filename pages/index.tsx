@@ -12,14 +12,7 @@ const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<Nav />
-			<section
-				// style={{
-				// 	backgroundImage: `url("./img/circle.svg")`,
-				// 	backgroundSize: "content",
-				// 	backgroundRepeat: "no-repeat",
-				// 	backgroundPosition: "right",
-				// }}
-				className=' md:flex font-inter mt-[82px]'>
+			<section className=' md:flex font-inter mt-[82px]'>
 				<img
 					className='w-96 absolute -z-10 top-0 right-0'
 					src='./img/circle.svg'
@@ -39,7 +32,7 @@ const Home: NextPage = () => {
 				</div>
 				<div>
 					<img
-						className='md:hidden w-[100%] mt-[45px]'
+						className='md:hidden w-full mt-[45px]'
 						src='./img/hero1.png'
 						alt=''
 					/>
