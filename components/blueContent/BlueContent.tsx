@@ -1,12 +1,24 @@
+import { useEffect, useState } from "react";
+
 const BlueContent = () => {
+	const [kon, SetKon] = useState<number>();
+	const [user, userSetKon] = useState<number>();
+	const [refer, referSetKon] = useState<number>();
+
+	useEffect(() => {
+		SetKon(Math.floor(Math.random() * 25) + 1);
+		userSetKon(Math.floor(Math.random() * 3000) + 1000);
+		referSetKon(Math.floor(Math.random() * 50) + 1);
+	}, []);
+
 	return (
 		<main
-			className='md:pt-[92px] pt-20 mt-[50px]'
+			className=' md:pt-[92px] pt-20 mt-[50px]'
 			style={{
 				backgroundImage: `url("./img/back.svg")`,
 			}}>
-			<main className='md:flex'>
-				<section className='md:ml-[40px] md:w-1/2 md:flex md:flex-col mx-[15px]'>
+			<main className='wide:mx-auto wide:w-[1700px] md:flex'>
+				<section className=' md:ml-[40px] desktop:w-[500px] md:w-1/2 md:flex md:flex-col mx-[15px]'>
 					<div className=''>
 						<h2 className='font-bold text-white'>Der Kongress</h2>
 						<p className='mt-5 text-white'>
@@ -40,7 +52,7 @@ const BlueContent = () => {
 						</p>
 					</div>
 				</section>
-				<div className='md:mt-[100px] md:mr-[40px] md:ml-[90px] md:w-1/2 mx-[15px] mt-[60px]'>
+				<div className='desktop:w-[500px] md:mt-[100px] md:mr-[40px] md:ml-[90px] md:w-1/2 mx-[15px] mt-[60px]'>
 					<h2 className='font-bold text-white'>DIE LOCATION</h2>
 					<p className='mt-5 text-white'>
 						Der Sparkassenturm am Islandufer ist allen Wuppertalerinnen und
@@ -74,22 +86,22 @@ const BlueContent = () => {
 					</p>
 				</div>
 			</main>
-			<section className='md:mt-[139px] md:flex md:items-baseline md:ml-[40px] pb-[70px] ml-[15px] mt-[70px]'>
-				<div className='md:mr-[60px] md:items-baseline md:flex-row flex flex-col'>
-					<h2 className='lg:text-[90px] md:text-res2 text-[100px] leading-[121px]  text-white'>
-						17
+			<section className='wide:mx-auto wide:w-[1700px] md:mt-[139px] md:flex md:items-baseline md:ml-[40px] pb-[70px] ml-[15px] mt-[70px]'>
+				<div className='wide:ml-[40px] md:mr-[50px] md:items-baseline md:flex-row flex flex-col'>
+					<h2 className='wide:text-[120px] lg:text-res md:mr-4 md:text-res2 text-[100px] leading-[121px]  text-white'>
+						{kon}
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Kongresse</p>
 				</div>
-				<div className='md:mr-[60px] md:items-baseline md:flex-row flex flex-col mt-5'>
-					<h2 className='lg:text-[90px] md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
-						2500
+				<div className='md:mr-[50px] md:items-baseline md:flex-row flex flex-col mt-5'>
+					<h2 className='wide:text-[120px] lg:text-res md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
+						{user}
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Teilnehmer</p>
 				</div>
 				<div className='md:items-baseline md:flex-row flex flex-col mt-5'>
-					<h2 className='lg:text-[90px] md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
-						48
+					<h2 className='wide:text-[120px] lg:text-res md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
+						{refer}
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Referenten</p>
 				</div>

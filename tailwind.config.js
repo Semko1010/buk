@@ -8,6 +8,18 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			screens: {
+				tablet: "640px",
+				// => @media (min-width: 640px) { ... }
+
+				laptop: "1024px",
+				// => @media (min-width: 1024px) { ... }
+
+				desktop: "1366px",
+				// => @media (min-width: 1280px) { ... }
+				wide: "1700px",
+				// => @media (min-width: 1280px) { ... }
+			},
 			backgroundImage: {
 				backAgenda: "url('/img/backAgenda.svg')",
 			},
