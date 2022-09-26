@@ -25,7 +25,7 @@ const Sponsors = () => {
 					irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 					fugiat nulla pariatur.
 				</p>
-				<div>
+				<div className='wide:ml-[40px]'>
 					<h2 className='wide:mx-0 md:mx-[40px] border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary mt-20 mx-[15px]'>
 						Gold <br />
 						Sponsoren
@@ -49,12 +49,12 @@ const Sponsors = () => {
 						<img className='mt-[63px]' src='./img/sparkasse.svg' alt='' />
 					</div>
 				</div>
-				<div className='mt-[100px]'>
-					<h2 className='wide:ml-0 md:ml-[40px] border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary  mx-[15px]'>
+				<div className='md:ml-[40px] ml-[15px] mt-[100px]'>
+					<h2 className='border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary '>
 						Silber <br />
 						Sponsoren
 					</h2>
-					<div className='md:mx-[40px] md:flex md:flex-wrap ml-[15px]'>
+					<div className=' md:flex md:flex-wrap'>
 						<img
 							className='lg:mr-[116px] md:mr-[70px] mt-10'
 							src='./img/rinke.svg'
@@ -68,11 +68,11 @@ const Sponsors = () => {
 						<img className='mt-10' src='./img/wsw.svg' alt='' />
 					</div>
 				</div>
-				<div className='wide:mx-0 md:mx-[40px] mt-[100px]'>
-					<h2 className='border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary  mx-[15px]'>
+				<div className='md:mx-[40px] mx-[15px] mt-[100px]'>
+					<h2 className='border-b pb-[18px]  text-[25px] leading-[27px] text-fontColorPrimary  '>
 						Weitere Sponsoren
 					</h2>
-					<div className='items-center justify-items-center lg:grid-cols-5 md:grid-cols-4 border-b pb-[151px] grid grid-cols-3  gap-[10px] mx-[15px]'>
+					<div className='items-center lg:grid-cols-5 md:grid-cols-4 border-b pb-[151px] grid grid-cols-3  gap-[10px]'>
 						<img
 							className='md:w-32 text-center mt-10'
 							src='./img/davoine.svg'
@@ -120,7 +120,7 @@ const Sponsors = () => {
 						<img className='md:w-24 mt-10' src='./img/netzkern.svg' alt='' />
 						<img className='md:w-24 mt-10' src='./img/villa.svg' alt='' />
 					</div>
-					<div className='md:flex md:pb-[140px] pb-[92px] mt-10 ml-[15px]'>
+					<div className='md:flex md:pb-[140px] pb-[92px] mt-10 '>
 						<img className='md:mr-[100px] mt-10' src='./img/wz.svg' alt='' />
 						<img className='md:mr-[100px] mt-10' src='./img/njuzz.svg' alt='' />
 						<img className='md:mr-[100px] mt-10' src='./img/radio.svg' alt='' />
