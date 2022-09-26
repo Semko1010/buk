@@ -87,19 +87,19 @@ const BlueContent = () => {
 				</div>
 			</main>
 			<section className='wide:mx-auto wide:w-[1700px] md:mt-[139px] md:flex md:items-baseline md:ml-[40px] pb-[70px] ml-[15px] mt-[70px]'>
-				<div className='wide:ml-[40px] md:mr-[50px] md:items-baseline md:flex-row flex flex-col'>
+				<div className='wide:ml-[40px] wide:mr-[100px] md:mr-[50px] md:items-baseline md:flex-row flex flex-col'>
 					<h2 className='wide:text-[120px] lg:text-res md:mr-4 md:text-res2 text-[100px] leading-[121px]  text-white'>
 						{kon}
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Kongresse</p>
 				</div>
-				<div className='md:mr-[50px] md:items-baseline md:flex-row flex flex-col mt-5'>
+				<div className='wide:mr-[100px] md:mr-[50px] md:items-baseline md:flex-row flex flex-col mt-5'>
 					<h2 className='wide:text-[120px] lg:text-res md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
 						{user}
 					</h2>
 					<p className='uppercase font-semi-bold text-white'>Teilnehmer</p>
 				</div>
-				<div className='md:items-baseline md:flex-row flex flex-col mt-5'>
+				<div className='wide:mr-[100px] md:items-baseline md:flex-row flex flex-col mt-5'>
 					<h2 className='wide:text-[120px] lg:text-res md:mr-4 leading-[121px] md:text-res2 text-[100px] text-white'>
 						{refer}
 					</h2>

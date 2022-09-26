@@ -22,23 +22,23 @@ const Nav = () => {
 				<ul
 					className={`${
 						showMenu
-							? "w-screen opacity-100 text-fontColorPrimary"
+							? "w-[100%] opacity-100 text-fontColorPrimary"
 							: "text-fontColorPrimary w-0 opacity-0"
-					} lg:h-auto lg:hidden lg:pt-0  lg:opacity-100 lg:flex lg:items-center lg:border-none lg:static text-sm duration-700   h-screen  fixed right-0 top-20 uppercase pl-[15px] pt-12 bg-white`}>
+					} lg:h-auto lg:hidden lg:pt-0  lg:opacity-100 lg:flex lg:items-center lg:border-none lg:static text-sm duration-700  h-screen  fixed right-0 top-20  uppercase pl-[15px] pt-12 bg-white`}>
 					<li className='lg:mt-0 mt-4 cursor-pointer'>Agenda</li>
 					<li className='lg:mt-0 mt-[39px] cursor-pointer'>Thema</li>
 					<li className='lg:mt-0 mt-[39px] cursor-pointer'>Redner:innen</li>
 					<li className='lg:mt-0 mt-[39px] cursor-pointer'>Kontakt</li>
-					<li className='w-80 lg:mt-0 mt-[39px] cursor-pointer'>
+					<li className=' w-80 lg:mt-0 mt-[39px] cursor-pointer'>
 						Covid 19 - Infos
 					</li>
 				</ul>
 				<div className='flex items-center'>
 					<div className='md:flex md:items-center'>
-						<p className='md:inline-block text-sm d uppercase md:mr-10 mr-8 hidden'>
+						<p className='cursor-pointer md:inline-block text-sm d uppercase md:mr-10 mr-8 hidden'>
 							Kontakt
 						</p>
-						<p className='md:mr-0 mr-14 text-fontColorPrimary text-sm font-semibold uppercase'>
+						<p className='cursor-pointer md:mr-0 mr-14 text-fontColorPrimary text-sm font-semibold uppercase'>
 							Ticket kaufen
 						</p>
 					</div>

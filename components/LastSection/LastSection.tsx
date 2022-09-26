@@ -4,13 +4,13 @@ const LastSection = () => {
 			style={{
 				backgroundImage: `url("./img/last.svg")`,
 			}}
-			className='wide:pt-[170px] relative z-50 pt-20 font-inter'>
+			className='pt-[170px] relative z-50  font-inter'>
 			<main className='wide:mx-auto wide:w-[1700px]'>
 				<h2 className='md:hidden md:font-light font-normal md:leading-none md:text-res ml-[15px]  text-[37px] uppercase leading-[39px] text-headingColor'>
 					Impressionen <br /> aus den <br /> vergangenen <br />
 					Jahren
 				</h2>
-				<h2 className=' wide:text-[90px] lg:text-[70px] md:block md:font-light md:leading-none md:text-res ml-[40px]  text-[37px] uppercase leading-[39px] text-headingColor hidden'>
+				<h2 className='wide:text-[90px] md:text-[5.3vw] md:block md:font-light md:leading-none md:text-res ml-[40px]  text-[37px] uppercase leading-[39px] text-headingColor hidden'>
 					Impressionen aus <br /> den vergangenen <br />
 					Jahren
 				</h2>

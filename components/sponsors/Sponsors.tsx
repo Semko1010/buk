@@ -10,7 +10,7 @@ const Sponsors = () => {
 					Das Sind unsere Sponsoren
 				</h2>
 				<div className='text-center w-full'>
-					<h2 className='wide:text-[90px] lg:text-[70px] md:inline hidden  md:font-light md:leading-none md:text-res  text-[37px] uppercase leading-[39px] text-headingColor'>
+					<h2 className='wide:text-[90px] lg:text-[5.3vw] md:inline hidden  md:font-light md:leading-none md:text-res  text-[37px] uppercase leading-[39px] text-headingColor'>
 						EIN GROSSER DANK <br /> GILT UNSEREN <br />
 						SPONSOREN
 					</h2>

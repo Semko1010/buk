@@ -19,8 +19,8 @@ const TicketKaufen = () => {
 						<button className='lg:mb-[57px] lg:mt-[32px] md:mb-[56px] md:mt-[17px] my-[30px] leading-[16px] uppercase font-bold text-sm rounded-[100px] py-[22px] px-[27px] text-buttonTextColor bg-white'>
 							Ticket Kaufen
 						</button>
-						<article className='desktop:w-full desktop:flex hidden desktop:w-1/2 desktop:flex-row flex flex-col lg:w-[400px]'>
-							<p className='desktop:w-2/5 desktop:mr-[76px] mt-[30px] leading-[23px] text-white font-medium'>
+						<article className='desktop:w-full desktop:flex hidden desktop:flex-row flex flex-col lg:w-[400px]'>
+							<p className='desktop:h-[350px] desktop:w-2/5 desktop:mr-[76px] mt-[30px] leading-[23px] text-white font-medium'>
 								In keiner Phase der Geschichte hat es einen vergleichbaren
 								Innovationsschub gegeben wie in unserer Zeit. So werden wir mit
 								dem Aufkommen von künstlicher Intelligenz konfrontiert.
@@ -64,7 +64,7 @@ const TicketKaufen = () => {
 							Medizin oder einer erheblichen Veränderung der Medienlandschaft.
 						</p>
 
-						<p className='mt-[30px] leading-[23px] text-white font-medium'>
+						<p className=' mt-[30px] leading-[23px] text-white font-medium'>
 							Während häufig über mögliche zukünftige Szenarien debattiert wird,
 							so zum Beispiel über die Zukunft der Arbeit, ist der Weg, der in
 							diese Zukunft führen soll, allerdings noch völlig offen. Gerade in
