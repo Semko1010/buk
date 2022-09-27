@@ -51,7 +51,7 @@ const Footer = () => {
 					</ul>
 				</section>
 			</main>
-			<div className='pl-[15px] pt-[30px]  m-0 pb-[44px] bg-white'>
+			<div className='md:pl-[40px] pl-[15px] pt-[30px]  m-0 pb-[44px] bg-white'>
 				<img src='./img/entwicklung.svg' alt='' />
 			</div>
 		</footer>
